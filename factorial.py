@@ -1,8 +1,8 @@
 import time;
 import csv;
-f = open("input.txt")
-o=open("output_factorial.log","w");
-cs=open("output_factorial.csv","w",newline='');
+f = open("/home/ubuntu/cloudbinary/input1.txt")
+o=open("/home/ubuntu/cloudbinary/output_factorial.log","w");
+cs=open("/home/ubuntu/cloudbinary/output_factorial.csv","w",newline='');
 w = csv.writer(cs)
 
 reqId=0;

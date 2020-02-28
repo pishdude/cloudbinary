@@ -1,11 +1,11 @@
 import time;
 import csv;
-f = open("input.txt")
+f = open("/home/ubuntu/cloudbinary/input1.txt")
 reqId=0;
 list=[];
 c=0;
-o=open("output_fibonnaci.log","w");
-cs=open("output_fibonnaci.csv","w",newline='');
+o=open("/home/ubuntu/cloudbinary/output_fibonnaci.log","w");
+cs=open("/home/ubuntu/cloudbinary/output_fibonnaci.csv","w",newline='');
 w = csv.writer(cs)
 for x in f:
     start_time=time.time();
