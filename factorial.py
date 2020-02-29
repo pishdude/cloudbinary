@@ -15,7 +15,7 @@ for x in f:
     time_taken =(time.time() - start_time);
     log = "requestId = {},time={:.6},n={}.result={}";
     o.write(log.format(reqId,time_taken,x,factorial));
-    w.writerow([reqId,time_taken,x,factorial]);
+    w.writerow([time_taken,x]);
 
 
 

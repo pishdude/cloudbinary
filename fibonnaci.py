@@ -24,7 +24,7 @@ for x in f:
     log = "requestId = {},time={:.6},n={},result={}\n";
     o.write(log.format(reqId,time_taken,x,list));
     #res=reqId+","+str(ime_taken)+","+str(x)+","+list;
-    w.writerow([reqId,time_taken,x,list]);
+    w.writerow([time_taken,x]);
 
 o.close();
 
